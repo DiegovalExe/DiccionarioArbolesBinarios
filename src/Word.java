@@ -3,7 +3,7 @@ public class Word implements Comparable<Word> {
     private String frenchWord;
     private String spanishWord;
 
-    public Word(String englishWord, String frenchWord, String spanishWord) {
+    public Word(String englishWord, String spanishWord, String frenchWord ) {
         this.englishWord = englishWord;
         this.frenchWord = frenchWord;
         this.spanishWord = spanishWord;
