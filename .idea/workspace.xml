@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5e6dfa3-ad81-4181-8386-e4c53e4cfc6a" name="Changes" comment="Volvimos a empezar ahora con un nuevo arbol binario">
-      <change afterPath="$PROJECT_DIR$/src/txtReader.java" afterDir="false" />
+    <list default="true" id="b5e6dfa3-ad81-4181-8386-e4c53e4cfc6a" name="Changes" comment="Lector creado">
+      <change afterPath="$PROJECT_DIR$/src/UI/Ui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Dictionary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IGetKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/IGetKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ITraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ITraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/txtReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/txtReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WordAssociation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/WordAssociation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/txtReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/txtReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -32,14 +41,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Test" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="txtReaderTest.returnPostFix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DiccionarioArbolesBinarios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.txtReaderTest" />
+      <option name="METHOD_NAME" value="returnPostFix" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.txtReaderTest.returnPostFix" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,7 +96,8 @@
       <option name="presentableId" value="Default" />
       <updated>1679424151603</updated>
       <workItem from="1679424154200" duration="3463000" />
-      <workItem from="1679619912091" duration="5402000" />
+      <workItem from="1679619912091" duration="6535000" />
+      <workItem from="1679659071510" duration="1723000" />
     </task>
     <task id="LOCAL-00001" summary="Clase de las palabras, creada">
       <created>1679424972845</created>
@@ -72,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679624389771</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lector creado">
+      <created>1679625719837</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679625719837</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +148,7 @@
     <MESSAGE value="Clase de las palabras, creada" />
     <MESSAGE value="Primera implementacion de la clase Association y el arbol binario, aun no funciona jaja" />
     <MESSAGE value="Volvimos a empezar ahora con un nuevo arbol binario" />
-    <option name="LAST_COMMIT_MESSAGE" value="Volvimos a empezar ahora con un nuevo arbol binario" />
+    <MESSAGE value="Lector creado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lector creado" />
   </component>
 </project>

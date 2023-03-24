@@ -1,33 +1,44 @@
-public class WordAssociation<K,V> implements Comparable<WordAssociation>{
+package model;
+
+public class Word implements Comparable<Word> {
     private String englishWord;
     private String spanishWord;
     private String frenchWord;
 
-    public WordAssociation(String englishWord, String spanishWord, String frenchWord) {
+
+    public Word(String englishWord, String spanishWord, String frenchWord ) {
         this.englishWord = englishWord;
-        this.spanishWord = spanishWord;
         this.frenchWord = frenchWord;
+        this.spanishWord = spanishWord;
     }
 
     public String getEnglishWord() {
         return englishWord;
     }
 
-    public String getSpanishWord() {
-        return spanishWord;
+    public void setEnglishWord(String englishWord) {
+        this.englishWord = englishWord;
     }
 
     public String getFrenchWord() {
         return frenchWord;
     }
 
+    public void setFrenchWord(String frenchWord) {
+        this.frenchWord = frenchWord;
+    }
+
+    public String getSpanishWord() {
+        return spanishWord;
+    }
+
+    public void setSpanishWord(String spanishWord) {
+        this.spanishWord = spanishWord;
+    }
+
     @Override
     public String toString() {
-        return "WordAssociation{" +
-                "englishWord='" + englishWord + '\'' +
-                ", spanishWord='" + spanishWord + '\'' +
-                ", frenchWord='" + frenchWord + '\'' +
-                '}';
+        return englishWord + "," + spanishWord + "," + frenchWord;
     }
 
     /**
@@ -70,7 +81,7 @@ public class WordAssociation<K,V> implements Comparable<WordAssociation>{
      *                              from being compared to this object.
      */
     @Override
-    public int compareTo(WordAssociation o) {
-        return this.englishWord.compareToIgnoreCase(o.englishWord);
+    public int compareTo(Word o) {
+        return 0;
     }
 }

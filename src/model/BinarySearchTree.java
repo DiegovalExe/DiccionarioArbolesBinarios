@@ -1,3 +1,5 @@
+package model;
+
 import java.util.Comparator;
 //Codigo Extraido de https://github.com/malonso-uvg/uvg2023ed10/blob/main/10_ABB/src/BinarySearchTree.java
 public class BinarySearchTree<K,V>{
