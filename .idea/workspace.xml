@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5e6dfa3-ad81-4181-8386-e4c53e4cfc6a" name="Changes" comment="Lector creado">
-      <change afterPath="$PROJECT_DIR$/src/UI/Ui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IGetKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/IGetKey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ITraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ITraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/txtReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/txtReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WordAssociation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/WordAssociation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txtReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/txtReader.java" afterDir="false" />
+    <list default="true" id="b5e6dfa3-ad81-4181-8386-e4c53e4cfc6a" name="Changes" comment="Se modificaron los nodos del arbol y el arbol">
+      <change beforePath="$PROJECT_DIR$/src/model/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +87,7 @@
       <updated>1679424151603</updated>
       <workItem from="1679424154200" duration="3463000" />
       <workItem from="1679619912091" duration="6535000" />
-      <workItem from="1679659071510" duration="1723000" />
+      <workItem from="1679659071510" duration="2042000" />
     </task>
     <task id="LOCAL-00001" summary="Clase de las palabras, creada">
       <created>1679424972845</created>
@@ -127,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679625719837</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Se modificaron los nodos del arbol y el arbol">
+      <created>1679660869316</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679660869316</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +146,7 @@
     <MESSAGE value="Primera implementacion de la clase Association y el arbol binario, aun no funciona jaja" />
     <MESSAGE value="Volvimos a empezar ahora con un nuevo arbol binario" />
     <MESSAGE value="Lector creado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lector creado" />
+    <MESSAGE value="Se modificaron los nodos del arbol y el arbol" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se modificaron los nodos del arbol y el arbol" />
   </component>
 </project>
