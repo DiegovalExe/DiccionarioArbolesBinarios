@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5e6dfa3-ad81-4181-8386-e4c53e4cfc6a" name="Changes" comment="Clase de las palabras, creada">
-      <change afterPath="$PROJECT_DIR$/src/Association.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Diccionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/txtReader.java" afterDir="false" />
+    <list default="true" id="b5e6dfa3-ad81-4181-8386-e4c53e4cfc6a" name="Changes" comment="Primera implementacion de la clase Association y el arbol binario, aun no funciona jaja">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IGetKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Translator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WordAssociation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/words.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Palabra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Palabra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Association.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Diccionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Palabra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/txtReader.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +44,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679424151603</updated>
       <workItem from="1679424154200" duration="3463000" />
-      <workItem from="1679619912091" duration="2048000" />
+      <workItem from="1679619912091" duration="4189000" />
     </task>
     <task id="LOCAL-00001" summary="Clase de las palabras, creada">
       <created>1679424972845</created>
@@ -60,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679424972845</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Primera implementacion de la clase Association y el arbol binario, aun no funciona jaja">
+      <created>1679621996348</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679621996348</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Clase de las palabras, creada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase de las palabras, creada" />
+    <MESSAGE value="Primera implementacion de la clase Association y el arbol binario, aun no funciona jaja" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primera implementacion de la clase Association y el arbol binario, aun no funciona jaja" />
   </component>
 </project>

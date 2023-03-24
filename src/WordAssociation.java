@@ -1,36 +1,33 @@
-public class Palabra implements Comparable<Palabra> {
-    private String espaniol;
-    private String ingles;
-    private String frances;
+public class WordAssociation<K,V> implements Comparable<WordAssociation>{
+    private String englishWord;
+    private String spanishWord;
+    private String frenchWord;
 
-    public Palabra(String espaniol, String ingles, String frances) {
-        this.espaniol = espaniol;
-        this.ingles = ingles;
-        this.frances = frances;
+    public WordAssociation(String englishWord, String spanishWord, String frenchWord) {
+        this.englishWord = englishWord;
+        this.spanishWord = spanishWord;
+        this.frenchWord = frenchWord;
     }
 
-    public String getEspaniol() {
-        return espaniol;
+    public String getEnglishWord() {
+        return englishWord;
     }
 
-    public void setEspaniol(String espaniol) {
-        this.espaniol = espaniol;
+    public String getSpanishWord() {
+        return spanishWord;
     }
 
-    public String getIngles() {
-        return ingles;
+    public String getFrenchWord() {
+        return frenchWord;
     }
 
-    public void setIngles(String ingles) {
-        this.ingles = ingles;
-    }
-
-    public String getFrances() {
-        return frances;
-    }
-
-    public void setFrances(String frances) {
-        this.frances = frances;
+    @Override
+    public String toString() {
+        return "WordAssociation{" +
+                "englishWord='" + englishWord + '\'' +
+                ", spanishWord='" + spanishWord + '\'' +
+                ", frenchWord='" + frenchWord + '\'' +
+                '}';
     }
 
     /**
@@ -73,7 +70,7 @@ public class Palabra implements Comparable<Palabra> {
      *                              from being compared to this object.
      */
     @Override
-    public int compareTo(Palabra o) {
-        return 0;
+    public int compareTo(WordAssociation o) {
+        return this.englishWord.compareToIgnoreCase(o.englishWord);
     }
 }
