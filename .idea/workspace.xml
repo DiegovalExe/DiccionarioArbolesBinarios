@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5e6dfa3-ad81-4181-8386-e4c53e4cfc6a" name="Changes" comment="Clase UI y Assosiation creadas">
+    <list default="true" id="b5e6dfa3-ad81-4181-8386-e4c53e4cfc6a" name="Changes" comment="Se modifico el nodo para implementar un arbol binario mas sensillo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/WordAssociation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/WordAssociation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/txtReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/txtReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,14 @@
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.txtReaderTest.returnPostFix">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="DiccionarioArbolesBinarios" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="txtReaderTest.returnPostFix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DiccionarioArbolesBinarios" />
       <extension name="coverage">
@@ -78,6 +86,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.txtReaderTest.returnPostFix" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +102,7 @@
       <workItem from="1679619912091" duration="6535000" />
       <workItem from="1679659071510" duration="2355000" />
       <workItem from="1679712163660" duration="1977000" />
-      <workItem from="1679762545313" duration="749000" />
+      <workItem from="1679762545313" duration="3140000" />
     </task>
     <task id="LOCAL-00001" summary="Clase de las palabras, creada">
       <created>1679424972845</created>
@@ -144,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679714131879</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Se modifico el nodo para implementar un arbol binario mas sensillo">
+      <created>1679763320077</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679763320077</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +185,7 @@
     <MESSAGE value="Se modificaron los nodos del arbol y el arbol" />
     <MESSAGE value="Se modifica la asocacion de palabras" />
     <MESSAGE value="Clase UI y Assosiation creadas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clase UI y Assosiation creadas" />
+    <MESSAGE value="Se modifico el nodo para implementar un arbol binario mas sensillo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se modifico el nodo para implementar un arbol binario mas sensillo" />
   </component>
 </project>

@@ -1,9 +1,9 @@
 package model;
 
+//Arbol extraido de Chat gpt4, modificado para su correcto funcionamiento en este programa
 
-
-public class BinarySearchTree<E extends Comparable<? super E>{
-    private Node root;
+public class BinarySearchTree<E extends Comparable<? super E>>{
+    private Node<E> root;
 
     public BinarySearchTree() {
         root = null;
@@ -41,15 +41,16 @@ public class BinarySearchTree<E extends Comparable<? super E>{
         return contains(x, root);
     }
 
-
-
+    public E search(E x) {
+        return search(x, root);
+    }
 
     private Node<E> insert(E x, Node<E> t) {
         if (t == null)
             return new Node<>(x);
         int compareResult = x.compareTo(t.element);
         if (compareResult < 0)
-            t.left = insert(x,  t.left);
+            t.left = insert(x, t.left);
         else if (compareResult > 0)
             t.right = insert(x, t.right);
         else
@@ -97,7 +98,19 @@ public class BinarySearchTree<E extends Comparable<? super E>{
         else if (compareResult > 0)
             return contains(x, t.right);
         else
-            return true; // match
+            return true;
+    }
+
+    private E search(E x, Node<E> t) {
+        if (t == null)
+            return null;
+        int compareResult = x.compareTo(t.element);
+        if (compareResult < 0)
+            return search(x, t.left);
+        else if (compareResult > 0)
+            return search(x, t.right);
+        else
+            return t.element; // match
     }
 
     public void printTree(Node<E> node) {
@@ -114,23 +127,5 @@ public class BinarySearchTree<E extends Comparable<? super E>{
 
     public void setRoot(Node<E> root) {
         this.root = root;
-    }
-
-    public E search(E x) {
-        return searchRec(x, root);
-    }
-
-    private E searchRec(E x, Node<E> node) {
-        if (node == null) {
-            return null;
-        }
-        int compareResult = x.compareTo(node.element);
-        if (compareResult < 0) {
-            return searchRec(x, node.left);
-        } else if (compareResult > 0) {
-            return searchRec(x, node.right);
-        } else {
-            return node.element; // match
-        }
     }
 }

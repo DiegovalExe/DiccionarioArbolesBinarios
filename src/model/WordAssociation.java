@@ -4,9 +4,9 @@ import model.Assosiation;
 
 
 public class WordAssociation  implements Comparable<WordAssociation> {
-    private Assosiation<String, String> association;
+    private Assosiation<String, Word> association;
 
-    public WordAssociation(String key, String value) {
+    public WordAssociation(String key, Word value) {
         this.association = new Assosiation<>(key, value);
     }
 
@@ -14,7 +14,7 @@ public class WordAssociation  implements Comparable<WordAssociation> {
         return association.getKey();
     }
 
-    public String getValue() {
+    public Word getValue() {
         return association.getValue();
     }
 

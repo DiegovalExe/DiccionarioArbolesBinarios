@@ -12,6 +12,10 @@ public class txtReader{
     public String fileURL;
     public ArrayList<Word> words = new ArrayList<>();
 
+    public txtReader(String path){
+        this.fileURL = path;
+    }
+
     public txtReader() {
         this.fileURL = "D:\\EstructuraDeDatosUVG\\DiccionarioArbolesBinarios\\src\\words.txt";
     }
