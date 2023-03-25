@@ -113,12 +113,15 @@ public class BinarySearchTree<E extends Comparable<? super E>>{
             return t.element; // match
     }
 
-    public void printTree(Node<E> node) {
+    private void printTreeInOrder(Node<E> node) {
         if (node != null) {
-            printTree(node.getLeft());
+            printTreeInOrder(node.getLeft());
             System.out.println(node.getElement().toString());
-            printTree(node.getRight());
+            printTreeInOrder(node.getRight());
         }
+    }
+    public void printTree() {
+        printTreeInOrder(root);
     }
 
     public Node<E> getRoot() {

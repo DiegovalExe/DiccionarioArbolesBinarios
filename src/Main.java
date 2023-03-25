@@ -20,6 +20,8 @@ public class Main {
      */
     public static void runDiccionary(){
         dictionary.fillInfo();
+        ui.print("----ARBOL EN INGLES RECORRIDO IN ORDER");
+        dictionary.readInOrder();
         String[] words = ui.obtainWord().split(" ");
         int op = ui.obtainLenguageTo();
         String lenguajeTO = "";

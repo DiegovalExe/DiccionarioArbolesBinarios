@@ -87,4 +87,8 @@ public class Dictionary {
             return "Idioma no detectado, prueba ingresando la palabra otra vez";
         }
     }
+
+    public void readInOrder(){
+        englishTree.printTree();
+    }
 }

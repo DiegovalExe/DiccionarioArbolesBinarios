@@ -23,7 +23,9 @@ public class WordAssociation  implements Comparable<WordAssociation> {
     public Word getValue() {
         return association.getValue();
     }
-
+    public String toString(){
+        return "Key: "+association.getKey().toString() + " Valores asociados: " + association.getValue().toString();
+    }
     /**
      * Compara con otras palabras
      * @param other the object to be compared.
