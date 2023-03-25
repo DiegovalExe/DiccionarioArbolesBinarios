@@ -1,12 +1,13 @@
 package model;
 
-import com.sun.nio.sctp.Association;
+import model.Assosiation;
+
 
 public class WordAssociation  implements Comparable<WordAssociation> {
-    private Association<String, String> association;
+    private Assosiation<String, String> association;
 
     public WordAssociation(String key, String value) {
-        this.association = new Association<>(key, value);
+        this.association = new Assosiation<>(key, value);
     }
 
     public String getKey() {

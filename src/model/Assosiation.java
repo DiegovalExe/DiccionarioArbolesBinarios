@@ -1,46 +1,25 @@
 package model;
 
-public class Word implements Comparable<Word> {
-    private String englishWord;
-    private String spanishWord;
-    private String frenchWord;
+public class Assosiation<K,V> implements Comparable<Assosiation<String, String>> {
+    private K key;
+    private V value;
 
-
-    public Word(String englishWord, String spanishWord, String frenchWord ) {
-        this.englishWord = englishWord;
-        this.frenchWord = frenchWord;
-        this.spanishWord = spanishWord;
+    public Assosiation(K key, V value) {
+        this.key = key;
+        this.value = value;
     }
 
-    public String getEnglishWord() {
-        return englishWord;
+    public K getKey() {
+        return key;
     }
 
-    public void setEnglishWord(String englishWord) {
-        this.englishWord = englishWord;
+    public V getValue() {
+        return value;
     }
 
-    public String getFrenchWord() {
-        return frenchWord;
+    public void setValue(V value) {
+        this.value = value;
     }
-
-    public void setFrenchWord(String frenchWord) {
-        this.frenchWord = frenchWord;
-    }
-
-    public String getSpanishWord() {
-        return spanishWord;
-    }
-
-    public void setSpanishWord(String spanishWord) {
-        this.spanishWord = spanishWord;
-    }
-
-    @Override
-    public String toString() {
-        return englishWord + "," + spanishWord + "," + frenchWord;
-    }
-
     /**
      * Compares this object with the specified object for order.  Returns a
      * negative integer, zero, or a positive integer as this object is less
@@ -81,7 +60,7 @@ public class Word implements Comparable<Word> {
      *                              from being compared to this object.
      */
     @Override
-    public int compareTo(Word o) {
-        return this.englishWord.compareTo(o.englishWord);
+    public int compareTo(Assosiation<String, String> o) {
+        return 0;
     }
 }
