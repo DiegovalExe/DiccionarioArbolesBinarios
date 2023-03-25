@@ -1,11 +1,19 @@
 package UI;
 
+import java.util.Scanner;
+
 public class Ui {
-    public int printMenu(){
+    private final Scanner sc = new Scanner(System.in);
+    public String obtainWord(){
         System.out.println("---Menu Diccionario---");
-        System.out.println("Ingrese la opcion");
-        System.out.println("Traducir del idioma...");
-        System.out.println("");
-        return 0;
+        System.out.println("Ingrese su palabra...");
+        return sc.nextLine();
+    }
+    public int obtainLenguageTo(){
+        System.out.println("Ingrese a que idioma desea traducir: ");
+        System.out.println("1. Español");
+        System.out.println("2. Ingles");
+        System.out.println("3. Frances");
+        return sc.nextInt();
     }
 }
