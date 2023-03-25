@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5e6dfa3-ad81-4181-8386-e4c53e4cfc6a" name="Changes" comment="Se creo un nuevo arbol binario basado en uno brindado por chatgpt4 y se modifico la asociacion para que asocie la key de un lenguaje con un objeto palabra que almacene las 3 palabras">
-      <change afterPath="$PROJECT_DIR$/src/model/DictionaryTest.java" afterDir="false" />
+    <list default="true" id="b5e6dfa3-ad81-4181-8386-e4c53e4cfc6a" name="Changes" comment="Diccionario creado y testeado, detecta bien el idioma de la palabra y devuelve la traduccion deseada, UI iniciado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UI/Ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Ui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Dictionary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <recent name="Test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DictionaryTest.translate">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DiccionarioArbolesBinarios" />
@@ -101,9 +99,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.DictionaryTest.translate" />
         <item itemvalue="JUnit.txtReaderTest.returnPostFix" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +117,7 @@
       <workItem from="1679619912091" duration="6535000" />
       <workItem from="1679659071510" duration="2355000" />
       <workItem from="1679712163660" duration="1977000" />
-      <workItem from="1679762545313" duration="5175000" />
+      <workItem from="1679762545313" duration="6022000" />
     </task>
     <task id="LOCAL-00001" summary="Clase de las palabras, creada">
       <created>1679424972845</created>
@@ -184,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679766154772</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Diccionario creado y testeado, detecta bien el idioma de la palabra y devuelve la traduccion deseada, UI iniciado">
+      <created>1679768183866</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679768183866</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +216,18 @@
     <MESSAGE value="Clase UI y Assosiation creadas" />
     <MESSAGE value="Se modifico el nodo para implementar un arbol binario mas sensillo" />
     <MESSAGE value="Se creo un nuevo arbol binario basado en uno brindado por chatgpt4 y se modifico la asociacion para que asocie la key de un lenguaje con un objeto palabra que almacene las 3 palabras" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se creo un nuevo arbol binario basado en uno brindado por chatgpt4 y se modifico la asociacion para que asocie la key de un lenguaje con un objeto palabra que almacene las 3 palabras" />
+    <MESSAGE value="Diccionario creado y testeado, detecta bien el idioma de la palabra y devuelve la traduccion deseada, UI iniciado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diccionario creado y testeado, detecta bien el idioma de la palabra y devuelve la traduccion deseada, UI iniciado" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/model/Dictionary.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

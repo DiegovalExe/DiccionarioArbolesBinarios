@@ -6,7 +6,7 @@ public class Ui {
     private final Scanner sc = new Scanner(System.in);
     public String obtainWord(){
         System.out.println("---Menu Diccionario---");
-        System.out.println("Ingrese su palabra...");
+        System.out.println("Ingrese su palabra... U oracion");
         return sc.nextLine();
     }
     public int obtainLenguageTo(){
@@ -15,5 +15,8 @@ public class Ui {
         System.out.println("2. Ingles");
         System.out.println("3. Frances");
         return sc.nextInt();
+    }
+    public void print(String text){
+        System.out.println(text);
     }
 }
