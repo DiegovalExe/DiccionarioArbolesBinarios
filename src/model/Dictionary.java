@@ -1,7 +1,7 @@
 package model;
 
 public class Dictionary {
-    private TreeNode root;
+    private Node root;
 
     public Dictionary() {
         this.root = null;
@@ -10,9 +10,9 @@ public class Dictionary {
     public void insert(String english, String spanish, String french) {
         root = insertRec(root, english, spanish, french);
     }
-    private TreeNode insertRec(TreeNode root, String english, String spanish, String french) {
+    private Node insertRec(Node root, String english, String spanish, String french) {
         if (root == null) {
-            root = new TreeNode(english, spanish, french);
+            root = new Node(english, spanish, french);
             return root;
         }
         if (english.compareTo(root.english) < 0) {
@@ -22,10 +22,10 @@ public class Dictionary {
         }
         return root;
     }
-    public TreeNode search(String english) {
+    public Node search(String english) {
         return searchRec(root, english);
     }
-    private TreeNode searchRec(TreeNode root, String english) {
+    private Node searchRec(Node root, String english) {
         if (root == null || root.english.equals(english)) {
             return root;
         }

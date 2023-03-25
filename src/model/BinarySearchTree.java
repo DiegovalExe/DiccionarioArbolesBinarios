@@ -1,12 +1,11 @@
 package model;
 
 
-import org.w3c.dom.Node;
 
 public class BinarySearchTree<E extends Comparable<? super E>{
-    private Node<E> root;
+    private Node root;
 
-    public BST() {
+    public BinarySearchTree() {
         root = null;
     }
 

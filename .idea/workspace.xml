@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5e6dfa3-ad81-4181-8386-e4c53e4cfc6a" name="Changes" comment="Se modifica la asocacion de palabras">
-      <change afterPath="$PROJECT_DIR$/src/model/Assosiation.java" afterDir="false" />
+    <list default="true" id="b5e6dfa3-ad81-4181-8386-e4c53e4cfc6a" name="Changes" comment="Clase UI y Assosiation creadas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Ui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/WordAssociation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/WordAssociation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,8 @@
       <workItem from="1679424154200" duration="3463000" />
       <workItem from="1679619912091" duration="6535000" />
       <workItem from="1679659071510" duration="2355000" />
-      <workItem from="1679712163660" duration="1831000" />
+      <workItem from="1679712163660" duration="1977000" />
+      <workItem from="1679762545313" duration="749000" />
     </task>
     <task id="LOCAL-00001" summary="Clase de las palabras, creada">
       <created>1679424972845</created>
@@ -136,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679661317316</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Clase UI y Assosiation creadas">
+      <created>1679714131879</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679714131879</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +168,7 @@
     <MESSAGE value="Lector creado" />
     <MESSAGE value="Se modificaron los nodos del arbol y el arbol" />
     <MESSAGE value="Se modifica la asocacion de palabras" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se modifica la asocacion de palabras" />
+    <MESSAGE value="Clase UI y Assosiation creadas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase UI y Assosiation creadas" />
   </component>
 </project>
