@@ -5,7 +5,12 @@ public class Word implements Comparable<Word> {
     private String spanishWord;
     private String frenchWord;
 
-
+    /**
+     * Constructor de palabras
+     * @param englishWord palabra en ingles
+     * @param spanishWord palabra en español
+     * @param frenchWord palabra en frances
+     */
     public Word(String englishWord, String spanishWord, String frenchWord ) {
         this.englishWord = englishWord;
         this.frenchWord = frenchWord;

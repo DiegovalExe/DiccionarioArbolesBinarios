@@ -7,6 +7,10 @@ public class Dictionary {
     private BinarySearchTree<WordAssociation> spanishTree = new BinarySearchTree<>();
     private BinarySearchTree<WordAssociation> englishTree = new BinarySearchTree<>();
     private BinarySearchTree<WordAssociation> frenchTree = new BinarySearchTree<>();
+
+    /**
+     * LLena la informacion del diccionario con el documento prvisto
+     */
     public void fillInfo(){
         ArrayList<Word> arr= txtReader.returnArrWords();
 
@@ -17,6 +21,12 @@ public class Dictionary {
         }
     }
 
+    /**
+     * Traduce la palabra dada
+     * @param word palabra
+     * @param lenguageTo lenguaje a traducir
+     * @return palabra traducida
+     */
     public String translate(String word, String lenguageTo){
         String lenguageFrom = detectLenguage(word);
         switch (lenguageFrom){
@@ -57,6 +67,12 @@ public class Dictionary {
                 return "Idioma no identificado";
         }
     }
+
+    /**
+     * Detenca el lenguaje de la palabra a atravez de la key
+     * @param word palabra
+     * @return idioma de la palabra
+     */
     public String detectLenguage(String word){
         if(spanishTree.contains(new WordAssociation(word,null))){
             return "Spanish";

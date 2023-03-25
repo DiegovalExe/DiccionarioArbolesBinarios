@@ -14,6 +14,10 @@ public class Main {
         runDiccionary();
 
     }
+
+    /**
+     * Corre el diccionario
+     */
     public static void runDiccionary(){
         dictionary.fillInfo();
         String[] words = ui.obtainWord().split(" ");

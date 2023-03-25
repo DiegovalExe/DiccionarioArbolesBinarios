@@ -4,19 +4,36 @@ public class Assosiation<K,V> implements Comparable<Assosiation<String, String>>
     private K key;
     private V value;
 
+    /**
+     * Crea la asociacion de una llave con su valor
+     * @param key llave de la asociacion
+     * @param value valor asociado a la llave
+     */
     public Assosiation(K key, V value) {
         this.key = key;
         this.value = value;
     }
 
+    /**
+     * obtener llave
+     * @return llave
+     */
     public K getKey() {
         return key;
     }
 
+    /**
+     * obtener valor de la ralacion
+     * @return valor
+     */
     public V getValue() {
         return value;
     }
 
+    /**
+     * Setear valor
+     * @param value valor
+     */
     public void setValue(V value) {
         this.value = value;
     }

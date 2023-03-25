@@ -6,6 +6,12 @@ import model.Assosiation;
 public class WordAssociation  implements Comparable<WordAssociation> {
     private Assosiation<String, Word> association;
 
+    /**
+     * Asocia la palabra con su valor
+     * @param key palabra
+     * @param value objto palabra
+     */
+
     public WordAssociation(String key, Word value) {
         this.association = new Assosiation<>(key, value);
     }
@@ -18,6 +24,11 @@ public class WordAssociation  implements Comparable<WordAssociation> {
         return association.getValue();
     }
 
+    /**
+     * Compara con otras palabras
+     * @param other the object to be compared.
+     * @return comparacion
+     */
     @Override
     public int compareTo(WordAssociation other) {
         return this.getKey().compareTo(other.getKey());
